@@ -10,9 +10,9 @@ st.set_page_config(page_title="Pointiva Dashboard", layout="wide")
 
 API_BASE = "https://pointiva.onrender.com"
 API_URL = f"{API_BASE}/dashboard"
-API_UPLOAD_URL = "https://pointiva.onrender.com/upload"
-API_STATUS_URL = "https://pointiva.onrender.com/upload/"
-API_LIST_URL = "https://pointiva.onrender.com/uploads"
+API_UPLOAD_URL = f"{API_BASE}/upload"
+API_STATUS_URL = f"{API_BASE}/upload/"
+API_LIST_URL = f"{API_BASE}/uploads"
 
 
 # -----------------------------------------
