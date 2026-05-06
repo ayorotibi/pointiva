@@ -8,11 +8,12 @@ import geocoder  # optional
 
 st.set_page_config(page_title="Pointiva Dashboard", layout="wide")
 
-API_URL = "http://127.0.0.1:8000/dashboard"
-API_UPLOAD_URL = "http://127.0.0.1:8000/upload"
-API_STATUS_URL = "http://127.0.0.1:8000/upload/"
-API_LIST_URL = "http://127.0.0.1:8000/uploads"
 API_BASE = "https://pointiva.onrender.com"
+API_URL = f"{API_BASE}/dashboard"
+API_UPLOAD_URL = "https://pointiva.onrender.com/upload"
+API_STATUS_URL = "https://pointiva.onrender.com/upload/"
+API_LIST_URL = "https://pointiva.onrender.com/uploads"
+
 
 # -----------------------------------------
 # SESSION INITIALIZATION
