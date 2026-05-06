@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://pointiva.onrender.com"
 
 st.set_page_config(page_title="Admin Review Dashboard")
 
