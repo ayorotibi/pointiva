@@ -1,5 +1,6 @@
 fastapi
 uvicorn
-pydantic
 python-multipart
 requests
+python-jose[cryptography]
+passlib[bcrypt==3.2.2]
