@@ -12,7 +12,7 @@ API_URL = "http://127.0.0.1:8000/dashboard"
 API_UPLOAD_URL = "http://127.0.0.1:8000/upload"
 API_STATUS_URL = "http://127.0.0.1:8000/upload/"
 API_LIST_URL = "http://127.0.0.1:8000/uploads"
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://pointiva.onrender.com"
 
 # -----------------------------------------
 # SESSION INITIALIZATION
